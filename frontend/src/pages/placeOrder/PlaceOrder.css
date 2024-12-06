@@ -1,0 +1,45 @@
+.order form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.order-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+}
+.order-left input{
+    height: 40px;
+    border: 1px solid #dcdbdb;
+    outline-color: tomato;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.multi-input{
+    display: flex;
+    gap: 10px;
+    
+}
+.multi-input input{
+    width: 390px;
+}
+.order-right button{
+    margin-top: 20px;
+width: 20vw;
+height: 4vw;
+font-size: 16px;
+border-radius: 10px;
+background-color: tomato;
+color: white;
+border: 1px solid rgb(253, 154, 137);
+cursor: pointer;
+}
+@media (max-width:750px) {
+   .order{
+    flex-direction: column;
+} 
+.order-right button{
+}
+}

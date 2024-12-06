@@ -1,0 +1,77 @@
+.food-item{
+width: 100%;
+margin: auto;
+border-radius: 15px;
+box-shadow: 0px 0px 10px #00000015;
+transition: 0.5s;
+animation: fadein 3s;
+padding: 0 5px;
+}
+.food-item-container .item-image{
+   width: 100%;
+   border-radius: 15px 15px 0px 0px;
+}
+.food-item-info{
+    display :flex ;
+   align-items: center;
+    justify-content: space-between;
+}
+.title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #00000095;
+}
+.description{
+    font-size: 15px;
+    color: #00000075;
+}
+.price{
+    color: tomato;
+    font-size: 18px;
+    font-weight: 500;
+}
+.itemImage{
+position: relative;
+}
+.addcounter{
+    font-size: 20px;
+    cursor: pointer;
+    width: fit-content;
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 50%;
+}
+
+.counter{
+    display: flex;
+    gap: 15px;
+    position:absolute ;
+    right: 15px;
+    bottom: 15px;
+    background-color: white;
+    width: fit-content;
+    height: 50px;
+   border-radius: 50px;
+    padding: 0 10px;
+    align-items: center;
+}
+.add-one, .remove-one{
+    padding: 5px 8px;
+    text-align:center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.add-one{
+    background-color: #6fff89;
+}
+.remove-one{
+    background-color: #ff5858;
+}
+.count{
+    font-size: 20px;
+    font-weight: 600;
+    color: tomato
+}

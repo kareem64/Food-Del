@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cairo;
+}
+body{
+  background-color: #fcfcfc;
+}
+a{
+  text-decoration: none;
+}
+hr{
+  border: none;
+  height: 1px;
+  color: #353535;
+}
+.sideBar-content{
+  display: flex;
+}
